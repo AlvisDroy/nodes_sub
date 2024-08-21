@@ -12,38 +12,37 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3  # 确保使用最新版本
 
-    # 第一步：设置 Git 用户信息
     - name: Set up Git user information
       run: |
         git config --global user.name "AlvisDroy"
         git config --global user.email "alvis593088386@gmail.com"
 
-    # 第二步：确保工作目录干净
     - name: Ensure clean working directory
       run: |
         git status
         git reset --hard
         git clean -fdx
 
-    # 第三步：获取订阅
     - name: Fetch subscriptions
       run: |
-        # 拉取第一个订阅
         curl -o nodes_1.txt "https://sub.kaiche.tk/?token=auto"
-
-        # 拉取第二个订阅
         curl -o nodes_2.txt "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
-
-        # 合并订阅到一个文件（可选）
         cat nodes_1.txt nodes_2.txt > all_nodes.txt
 
-    # 第四步：Git 提交更改
     - name: Commit changes
       run: |
         git add nodes_1.txt nodes_2.txt all_nodes.txt
         git commit -m "Update subscription nodes"
 
-    # 第五步：推送更改到 GitHub
+    - name: Debugging
+      run: |
+        echo "Current directory status:"
+        git status
+        echo "Current branch:"
+        git branch -a
+        echo "Last commit:"
+        git log -1
+
     - name: Push changes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
