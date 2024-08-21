@@ -1,8 +1,8 @@
 name: Update Subscription
 on:
   schedule:
-    - cron: '0 0 * * *'  # 这个 cron 表达式代表每天0点运行一次
-  workflow_dispatch: # 允许手动触发
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-subscription:
@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # 确保使用最新版本
+      uses: actions/checkout@v3
 
     - name: Set up Git user information
       run: |
@@ -19,7 +19,6 @@ jobs:
 
     - name: Ensure clean working directory
       run: |
-        git status
         git reset --hard
         git clean -fdx
 
@@ -34,17 +33,14 @@ jobs:
         git add nodes_1.txt nodes_2.txt all_nodes.txt
         git commit -m "Update subscription nodes"
 
-    - name: Debugging
+    - name: Debugging Git status
       run: |
-        echo "Current directory status:"
         git status
-        echo "Current branch:"
-        git branch -a
-        echo "Last commit:"
         git log -1
+        git remote -v
 
     - name: Push changes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git push
+        git push origin main
