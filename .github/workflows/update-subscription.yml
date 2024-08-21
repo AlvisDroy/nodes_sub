@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3  # 升级到v3
 
     - name: Fetch subscriptions
       run: |
@@ -24,8 +24,9 @@ jobs:
         cat nodes_1.txt nodes_2.txt > all_nodes.txt
 
         # Git 配置
-        git config --global user.name "AlvisDroy"
+        git config --global user.name "Alvisdroy"
         git config --global user.email "alvis593088386@gmail.com"
+
         # 提交第一个订阅
         git add nodes_1.txt
         git commit -m "Update first subscription nodes"
