@@ -10,8 +10,22 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # 升级到v3
+      uses: actions/checkout@v3  # 确保使用最新版本
 
+    # 第一步：设置 Git 用户信息
+    - name: Set up Git user information
+      run: |
+        git config --global user.name "AlvisDroy"
+        git config --global user.email "alvis593088386@gmail.com"
+
+    # 第二步：确保工作目录干净
+    - name: Ensure clean working directory
+      run: |
+        git status
+        git reset --hard
+        git clean -fdx
+
+    # 第三步：获取订阅
     - name: Fetch subscriptions
       run: |
         # 拉取第一个订阅
@@ -20,24 +34,18 @@ jobs:
         # 拉取第二个订阅
         curl -o nodes_2.txt "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
 
-        # 如果需要，可以将它们合并到一个文件
+        # 合并订阅到一个文件（可选）
         cat nodes_1.txt nodes_2.txt > all_nodes.txt
 
-        # Git 配置
-        git config --global user.name "Alvisdroy"
-        git config --global user.email "alvis593088386@gmail.com"
+    # 第四步：Git 提交更改
+    - name: Commit changes
+      run: |
+        git add nodes_1.txt nodes_2.txt all_nodes.txt
+        git commit -m "Update subscription nodes"
 
-        # 提交第一个订阅
-        git add nodes_1.txt
-        git commit -m "Update first subscription nodes"
-        
-        # 提交第二个订阅
-        git add nodes_2.txt
-        git commit -m "Update second subscription nodes"
-
-        # 提交合并的文件
-        git add all_nodes.txt
-        git commit -m "Update combined subscription nodes"
-
-        # 推送更改到GitHub
+    # 第五步：推送更改到 GitHub
+    - name: Push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
         git push
