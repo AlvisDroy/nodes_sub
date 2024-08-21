@@ -1,1 +1,43 @@
+name: Update Subscription
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 这个 cron 表达式代表每天0点运行一次
+  workflow_dispatch: # 允许手动触发
 
+jobs:
+  update-subscription:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Fetch subscriptions
+      run: |
+        # 拉取第一个订阅
+        curl -o nodes_1.txt "https://sub.kaiche.tk/?token=auto"
+
+        # 拉取第二个订阅
+        curl -o nodes_2.txt "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
+
+        # 如果需要，可以将它们合并到一个文件
+        cat nodes_1.txt nodes_2.txt > all_nodes.txt
+
+        # Git 配置
+        git config --global user.name "AlvisDroy"
+        git config --global user.email "alvis593088386@gmail.com"
+
+        # 提交第一个订阅
+        git add nodes_1.txt
+        git commit -m "Update first subscription nodes"
+        
+        # 提交第二个订阅
+        git add nodes_2.txt
+        git commit -m "Update second subscription nodes"
+
+        # 提交合并的文件
+        git add all_nodes.txt
+        git commit -m "Update combined subscription nodes"
+
+        # 推送更改到GitHub
+        git push
