@@ -26,7 +26,6 @@ jobs:
         # Git 配置
         git config --global user.name "AlvisDroy"
         git config --global user.email "alvis593088386@gmail.com"
-
         # 提交第一个订阅
         git add nodes_1.txt
         git commit -m "Update first subscription nodes"
