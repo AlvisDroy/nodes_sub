@@ -1,7 +1,6 @@
 name: Update Subscription
+
 on:
-  schedule:
-    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -12,35 +11,21 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Git user information
+    - name: Set up Git user
       run: |
         git config --global user.name "AlvisDroy"
         git config --global user.email "alvis593088386@gmail.com"
 
-    - name: Ensure clean working directory
-      run: |
-        git reset --hard
-        git clean -fdx
+    - name: Pull latest changes
+      run: git pull origin main --rebase
 
-    - name: Fetch subscriptions
+    - name: Fetch and update subscriptions
       run: |
         curl -o nodes_1.txt "https://sub.kaiche.tk/?token=auto"
         curl -o nodes_2.txt "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
         cat nodes_1.txt nodes_2.txt > all_nodes.txt
-
-    - name: Commit changes
-      run: |
         git add nodes_1.txt nodes_2.txt all_nodes.txt
         git commit -m "Update subscription nodes"
 
-    - name: Debugging Git status
-      run: |
-        git status
-        git log -1
-        git remote -v
-
     - name: Push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        git push origin main
+      run: git push origin main
