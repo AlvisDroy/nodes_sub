@@ -1,7 +1,7 @@
-name: Update Subscription
+name: Force Update Subscription Nodes
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
   update-subscription:
@@ -16,9 +16,6 @@ jobs:
         git config --global user.name "AlvisDroy"
         git config --global user.email "alvis593088386@gmail.com"
 
-    - name: Pull latest changes
-      run: git pull origin main --rebase
-
     - name: Fetch and update subscriptions
       run: |
         curl -o nodes_1.txt "https://sub.kaiche.tk/?token=auto"
@@ -27,5 +24,5 @@ jobs:
         git add nodes_1.txt nodes_2.txt all_nodes.txt
         git commit -m "Update subscription nodes"
 
-    - name: Push changes
-      run: git push origin main
+    - name: Force push changes to remote
+      run: git push origin main --force
