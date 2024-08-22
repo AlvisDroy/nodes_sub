@@ -22,10 +22,16 @@ jobs:
 
     - name: Fetch and update subscriptions
       run: |
-        curl -o nodes_1.txt -H "User-Agent: clash-verge/v1.5.1" "https://sub.kaiche.tk/?token=auto"
-        curl -o nodes_2.txt -H "User-Agent: clash-verge/v1.5.1" "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
-        cat nodes_1.txt nodes_2.txt > all_nodes.txt
-        git add nodes_1.txt nodes_2.txt all_nodes.txt
+        curl -o TG@Warp_Key.txt -H "User-Agent: clash-verge/v1.5.1" "https://sub.kaiche.tk/?token=auto"
+        curl -o TG@ripaojiedian.txt -H "User-Agent: clash-verge/v1.5.1" "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
+        curl -o TG@vps_jdkz.txt -H "User-Agent: clash-verge/v1.5.1" "https://sub.shengbenku.tk/sub.txt"
+        curl -o TG@ZDYZ2.txt -H "User-Agent: clash-verge/v1.5.1" "https://sub.tgzdyz2.xyz/sub"
+        curl -o YH@33102-2.txt -H "User-Agent: clash-verge/v1.5.1" "https://cfno1.212124.xyz/clash?host=word.212124.xyz&uuid=97e9e73d-2a29-4a1e-b451-093d81c51f7b&path=/xkaopf15da"
+        curl -o YH@33102.txt -H "User-Agent: clash-verge/v1.5.1" "https://ed.212124.xyz/api/sub?host=word.212124.xyz&uuid=97e9e73d-2a29-4a1e-b451-093d81c51f7b&path=/xkaopf15da&type=vless"
+        curl -o YH@33756.txt -H "User-Agent: clash-verge/v1.5.1" "https://sub.443888.xyz/vless"
+        curl -o USER.txt -H "User-Agent: clash-verge/v1.5.1" "https://bpb-6fi.pages.dev/sub/89b3cbba-e6ac-485a-9481-976a0415eab9#BPB-Normal"
+        cat TG@Warp_Key.txt TG@ripaojiedian.txt TG@vps_jdkz.txt TG@ZDYZ2.txt YH@33102-2.txt YH@33102.txt YH@33756.txt USER.txt > all_nodes.txt
+        git add TG@Warp_Key.txt TG@ripaojiedian.txt TG@vps_jdkz.txt TG@ZDYZ2.txt YH@33102-2.txt YH@33102.txt YH@33756.txt USER.txt all_nodes.txt
         git commit -m "Update subscription nodes"
 
     - name: Force push changes to main branch
