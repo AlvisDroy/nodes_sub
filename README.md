@@ -1,2 +1,1 @@
-# nodes_sub
-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
+自动获取填入订阅地址并推送github
