@@ -22,8 +22,8 @@ jobs:
 
     - name: Fetch and update subscriptions
       run: |
-        curl -o nodes_1.txt -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" "https://sub.kaiche.tk/?token=auto"
-        curl -o nodes_2.txt -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
+        curl -o nodes_1.txt -H "User-Agent: clash-verge/v1.5.1" "https://sub.kaiche.tk/?token=auto"
+        curl -o nodes_2.txt -H "User-Agent: clash-verge/v1.5.1" "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
         cat nodes_1.txt nodes_2.txt > all_nodes.txt
         git add nodes_1.txt nodes_2.txt all_nodes.txt
         git commit -m "Update subscription nodes"
