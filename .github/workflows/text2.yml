@@ -1,0 +1,45 @@
+name: Update Subscription Nodes
+
+on:
+  workflow_dispatch:  # 允许手动触发工作流
+
+jobs:
+  update-subscription:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Git user
+      run: |
+        git config --global user.name "AlvisDroy"
+        git config --global user.email "alvis593088386@gmail.com"
+
+    - name: Pull latest changes from remote
+      run: |
+        git pull origin main --rebase
+
+    - name: Fetch and update subscriptions
+      run: |
+        curl -o nodes_1.txt -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" "https://sub.kaiche.tk/?token=auto"
+        curl -o nodes_2.txt -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
+        cat nodes_1.txt nodes_2.txt > all_nodes.txt
+        git add nodes_1.txt nodes_2.txt all_nodes.txt
+        git commit -m "Update subscription nodes"
+
+    - name: Force push changes to main branch
+      run: git push origin main --force
+
+    - name: Switch to gh-pages branch
+      run: |
+        git checkout gh-pages || git checkout --orphan gh-pages
+
+    - name: Copy subscription file to GitHub Pages
+      run: |
+        cp all_nodes.txt index.txt  # 将文件复制并重命名为index.txt，这样可以通过URL直接访问
+        git add index.txt
+        git commit -m "Update GitHub Pages with latest subscription nodes"
+
+    - name: Force push to gh-pages branch
+      run: git push origin gh-pages --force
