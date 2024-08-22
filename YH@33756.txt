@@ -19,6 +19,7 @@ proxies:
   - {name: CF-Byoip, server: api.console.anthropic.com, port: 443, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
   - {name: CF, server: cf-saas.asia, port: 2096, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
   - {name: CF 2, server: cf.chinam.eu.org, port: 2096, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
+  - {name: 🇭🇰 移动云手机-HK, server: 36.139.183.230, port: 10135, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
   - {name: 🇭🇰 HK-aliyun, server: 47.57.12.238, port: 34237, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
   - {name: 🇺🇸 US-kurun, server: 154.26.238.84, port: 8443, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
   - {name: 🇺🇸 US-kurun 2, server: 207.60.50.14, port: 8443, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
@@ -83,7 +84,6 @@ proxies:
   - {name: 🇭🇰 香港 13, server: 38.207.132.178, port: 25956, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
   - {name: 🇯🇵 日本东京 16, server: 172.84.92.86, port: 56421, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
   - {name: 🇯🇵 日本东京 17, server: 89.116.89.73, port: 46767, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
-  - {name: 🇯🇵 日本东京 18, server: 123.108.70.24, port: 32516, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
   - {name: 台北-shandong-deju, server: 210.16.122.112, port: 8443, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
   - {name: 🇯🇵 JP-DV, server: 172.84.92.108, port: 42304, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
   - {name: 🇰🇷 韩国首尔_AZ, server: 4.218.12.51, port: 443, client-fingerprint: chrome, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: true, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: global2.ccdd.site}}}
@@ -258,6 +258,7 @@ proxy-groups:
       - CF-Byoip
       - CF
       - CF 2
+      - 🇭🇰 移动云手机-HK
       - 🇭🇰 HK-aliyun
       - 🇺🇸 US-kurun
       - 🇺🇸 US-kurun 2
@@ -322,7 +323,6 @@ proxy-groups:
       - 🇭🇰 香港 13
       - 🇯🇵 日本东京 16
       - 🇯🇵 日本东京 17
-      - 🇯🇵 日本东京 18
       - 台北-shandong-deju
       - 🇯🇵 JP-DV
       - 🇰🇷 韩国首尔_AZ
@@ -487,6 +487,7 @@ proxy-groups:
       - CF-Byoip
       - CF
       - CF 2
+      - 🇭🇰 移动云手机-HK
       - 🇭🇰 HK-aliyun
       - 🇺🇸 US-kurun
       - 🇺🇸 US-kurun 2
@@ -551,7 +552,6 @@ proxy-groups:
       - 🇭🇰 香港 13
       - 🇯🇵 日本东京 16
       - 🇯🇵 日本东京 17
-      - 🇯🇵 日本东京 18
       - 台北-shandong-deju
       - 🇯🇵 JP-DV
       - 🇰🇷 韩国首尔_AZ
@@ -889,6 +889,7 @@ proxy-groups:
     interval: 600
     tolerance: 5
     proxies:
+      - 🇭🇰 移动云手机-HK
       - 🇭🇰 HK-aliyun
       - 🇭🇰 HK-T
       - 🇭🇰 HK-T 2
@@ -954,7 +955,6 @@ proxy-groups:
       - 🇯🇵 日本东京 15
       - 🇯🇵 日本东京 16
       - 🇯🇵 日本东京 17
-      - 🇯🇵 日本东京 18
       - 🇯🇵 JP-DV
       - 🇯🇵 JP-Aws
       - 🇯🇵 JP-Wenjing
