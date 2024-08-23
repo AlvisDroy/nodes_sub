@@ -33,7 +33,7 @@ jobs:
         curl -o YH@33102-2.txt -H "User-Agent: clash-verge/v1.5.1" "https://cfno1.212124.xyz/clash?host=word.212124.xyz&uuid=97e9e73d-2a29-4a1e-b451-093d81c51f7b&path=/xkaopf15da"
         curl -o YH@33102.txt -H "User-Agent: clash-verge/v1.5.1" "https://ed.212124.xyz/api/sub?host=word.212124.xyz&uuid=97e9e73d-2a29-4a1e-b451-093d81c51f7b&path=/xkaopf15da&type=vless"
         curl -o YH@33756.txt -H "User-Agent: clash-verge/v1.5.1" "https://sub.443888.xyz/vless"
-        curl -o YH@12301.txt -H "User-Agent: clash-verge/v1.5.1" "https://sub.mfsn.cc/mfsn"
+        curl -o YH@12301.txt -H "User-Agent: clash-verge/v1.5.1" "https://dy.mfsn.cc/sub/v2ray/6a2U5rOV5bCR5aWz"
         curl -o USER.txt -H "User-Agent: clash-verge/v1.5.1" "https://bpb-6fi.pages.dev/sub/89b3cbba-e6ac-485a-9481-976a0415eab9#BPB-Normal"
         curl -o TG@gp36y.txt -H "User-Agent: Mozilla/5.0 (Linux; Android 13; Mi 10 Build/TKQ1.221114.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.9 Mobile Safari/537.36" "https://s.36y.me/v3/subscr?id=2e40fe91ce8c4864b1287b9a260ecaa7"
         cat YH@12301.txt TG@Warp_Key.txt TG@ripaojiedian.txt TG@vps_jdkz.txt TG@ZDYZ2.txt YH@33102-2.txt YH@33102.txt YH@33756.txt USER.txt TG@gp36y.txt > all_nodes.txt
