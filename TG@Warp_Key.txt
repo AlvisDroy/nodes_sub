@@ -15,49 +15,32 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇨🇦 CA|-TG@Warp_Key, server: 99.79.60.211, port: 15036, client-fingerprint: chrome, type: trojan, password: 1n6vaz5wIK0p, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇨🇦 CA|-TG@Warp_Key 2, server: 35.183.121.12, port: 15029, client-fingerprint: chrome, type: trojan, password: v9qnQspPp)ew, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇨🇦 CA|-TG@Warp_Key 3, server: 15.222.3.64, port: 15064, client-fingerprint: chrome, type: trojan, password: JKdCYdrY6EsG, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇨🇦 CA|-TG@Warp_Key 4, server: 99.79.60.57, port: 15037, client-fingerprint: chrome, type: trojan, password: BoflXuWt)GP8, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇨🇦 CA|-TG@Warp_Key 5, server: 35.183.112.52, port: 15041, client-fingerprint: chrome, type: trojan, password: j8TnlQI9ZBHo, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇩🇪 DE|-TG@Warp_Key, server: 18.184.127.192, port: 15038, client-fingerprint: chrome, type: trojan, password: OhIDHWo4(aAi, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇩🇪 DE|-TG@Warp_Key 2, server: 3.79.234.60, port: 15036, client-fingerprint: chrome, type: trojan, password: hpIj1qaTCkNi, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇩🇪 DE|-TG@Warp_Key 3, server: 18.185.87.61, port: 15035, client-fingerprint: chrome, type: trojan, password: K80kGQucCbhr, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇩🇪 DE|-TG@Warp_Key 4, server: 18.156.175.226, port: 15053, client-fingerprint: chrome, type: trojan, password: WMQlw573sq6E, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇩🇪 DE|-TG@Warp_Key 5, server: 3.77.235.163, port: 15050, client-fingerprint: chrome, type: trojan, password: prHoLQ44QHho, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇫🇷 FR|-TG@Warp_Key, server: 35.180.123.103, port: 15060, client-fingerprint: chrome, type: trojan, password: rJr5LPYfj7ek, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇫🇷 FR|-TG@Warp_Key 2, server: 15.237.192.37, port: 15036, client-fingerprint: chrome, type: trojan, password: uPOxj4MqUxCc, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇬🇧 GB|-TG@Warp_Key, server: 13.40.24.230, port: 15056, client-fingerprint: chrome, type: trojan, password: PcMzNnjrEk0p, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇬🇧 GB|-TG@Warp_Key 2, server: 18.170.33.15, port: 15066, client-fingerprint: chrome, type: trojan, password: t58nd92I74fm, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇬🇧 GB|-TG@Warp_Key 3, server: 18.171.59.244, port: 15056, client-fingerprint: chrome, type: trojan, password: RvwwIAuT9C)v, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇰🇷 KR|-TG@Warp_Key, server: 43.202.44.8, port: 15051, client-fingerprint: chrome, type: trojan, password: RMybzxmUfu3D, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇰🇷 KR|-TG@Warp_Key 2, server: 13.124.77.1, port: 15055, client-fingerprint: chrome, type: trojan, password: lv4qsh(OjfKa, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇸🇬 SG|-TG@Warp_Key, server: 47.129.167.39, port: 15036, client-fingerprint: chrome, type: trojan, password: fRRDMYSFbL6(, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇸🇬 SG|-TG@Warp_Key 2, server: 47.129.213.139, port: 15032, client-fingerprint: chrome, type: trojan, password: 9AlGJGXfm)UY, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇺🇸 US|-TG@Warp_Key, server: 54.175.174.174, port: 15038, client-fingerprint: chrome, type: trojan, password: ff0uYbNDCAcs, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇺🇸 US|-TG@Warp_Key 2, server: 3.14.252.206, port: 15041, client-fingerprint: chrome, type: trojan, password: Ys902UGa0xoZ, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇺🇸 US|-TG@Warp_Key 3, server: 44.204.117.181, port: 15047, client-fingerprint: chrome, type: trojan, password: 6j)fMlIsTJTA, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇯🇵 JP|-TG@Warp_Key, server: 18.183.192.17, port: 15066, client-fingerprint: chrome, type: trojan, password: u2vqXL6Cn(m3, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇯🇵 JP|-TG@Warp_Key 2, server: 18.183.235.72, port: 15069, client-fingerprint: chrome, type: trojan, password: NPaPSUz6APuk, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇯🇵 JP|-TG@Warp_Key 3, server: 54.248.194.60, port: 15023, client-fingerprint: chrome, type: trojan, password: zV)96OhThGBS, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇯🇵 JP|-TG@Warp_Key 4, server: 52.195.217.64, port: 15054, client-fingerprint: chrome, type: trojan, password: wYizU188XO1t, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇯🇵 JP|-TG@Warp_Key 5, server: 54.95.76.56, port: 15033, client-fingerprint: chrome, type: trojan, password: P2R6NYaVlVaG, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇸🇬 SG|-TG@Warp_Key 3, server: 13.212.91.205, port: 15068, client-fingerprint: chrome, type: trojan, password: (PAiHKuHJMmB, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇸🇬 SG|-TG@Warp_Key 4, server: 175.41.176.158, port: 15065, client-fingerprint: chrome, type: trojan, password: Crtod0Qx9hC9, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇸🇬 SG|-TG@Warp_Key 5, server: 13.212.211.174, port: 15051, client-fingerprint: chrome, type: trojan, password: dLYFgp9iskdi, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇸🇬 SG|-TG@Warp_Key 6, server: 47.129.120.92, port: 15033, client-fingerprint: chrome, type: trojan, password: J2xbS4Lrupr3, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇸🇬 SG|-TG@Warp_Key 7, server: 47.128.242.9, port: 15048, client-fingerprint: chrome, type: trojan, password: 1x2pWJ(pDKAz, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇺🇸 US|-TG@Warp_Key 4, server: 54.200.22.153, port: 15028, client-fingerprint: chrome, type: trojan, password: pSu1kJabISlh, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇺🇸 US|-TG@Warp_Key 5, server: 34.217.214.85, port: 15040, client-fingerprint: chrome, type: trojan, password: QvvFMQN8K4mc, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇺🇸 US|-TG@Warp_Key 6, server: 35.90.4.73, port: 15052, client-fingerprint: chrome, type: trojan, password: wVj0RUQsEBD), sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇺🇸 US|-TG@Warp_Key 7, server: 34.222.144.187, port: 15043, client-fingerprint: chrome, type: trojan, password: KZnWQHvaQ528, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇨🇦 CA|-TG@Warp_Key, server: 15.222.3.64, port: 17032, client-fingerprint: chrome, type: trojan, password: F6uSyDhcRNo9, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇨🇦 CA|-TG@Warp_Key 2, server: 3.99.171.20, port: 17038, client-fingerprint: chrome, type: trojan, password: (NdY5Ota1CJj, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇨🇦 CA|-TG@Warp_Key 3, server: 3.97.7.219, port: 17071, client-fingerprint: chrome, type: trojan, password: (aRWpoiiyjnI, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇨🇦 CA|-TG@Warp_Key 4, server: 99.79.60.57, port: 17054, client-fingerprint: chrome, type: trojan, password: d5lYinitvqfZ, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇨🇦 CA|-TG@Warp_Key 5, server: 35.183.121.12, port: 17052, client-fingerprint: chrome, type: trojan, password: YEva9tMNYpJL, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇩🇪 DE|-TG@Warp_Key, server: 18.185.87.61, port: 17048, client-fingerprint: chrome, type: trojan, password: xShpOkcuaHlT, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇩🇪 DE|-TG@Warp_Key 2, server: 3.77.235.163, port: 17063, client-fingerprint: chrome, type: trojan, password: 6)rcBMrgZ4Ji, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇩🇪 DE|-TG@Warp_Key 3, server: 18.156.175.226, port: 17065, client-fingerprint: chrome, type: trojan, password: clmuuJ2Cmv5r, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇩🇪 DE|-TG@Warp_Key 4, server: 3.79.234.60, port: 17048, client-fingerprint: chrome, type: trojan, password: tWMrj2ECtkOc, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇫🇷 FR|-TG@Warp_Key, server: 35.180.123.103, port: 17026, client-fingerprint: chrome, type: trojan, password: 3BYbUmHe2Sim, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇫🇷 FR|-TG@Warp_Key 2, server: 15.237.192.37, port: 17053, client-fingerprint: chrome, type: trojan, password: OMbEA4ayxeYA, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇬🇧 GB|-TG@Warp_Key, server: 35.176.135.80, port: 17069, client-fingerprint: chrome, type: trojan, password: wQ047VrZ()rT, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇬🇧 GB|-TG@Warp_Key 2, server: 13.40.164.155, port: 17043, client-fingerprint: chrome, type: trojan, password: PSlgNNltU7EV, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇬🇧 GB|-TG@Warp_Key 3, server: 13.40.164.86, port: 17039, client-fingerprint: chrome, type: trojan, password: 3tKrHcflkHTj, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇰🇷 KR|-TG@Warp_Key, server: 43.202.60.235, port: 17050, client-fingerprint: chrome, type: trojan, password: Ga3p3qLtsrN1, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇰🇷 KR|-TG@Warp_Key 2, server: 13.124.77.1, port: 17026, client-fingerprint: chrome, type: trojan, password: UKDQp6(whKi9, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇺🇸 US|-TG@Warp_Key, server: 18.118.255.115, port: 17034, client-fingerprint: chrome, type: trojan, password: uvOW9ypi)X3L, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇺🇸 US|-TG@Warp_Key 2, server: 54.175.174.174, port: 17030, client-fingerprint: chrome, type: trojan, password: 6LfLzj3vs2OW, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇺🇸 US|-TG@Warp_Key 3, server: 3.14.252.206, port: 17056, client-fingerprint: chrome, type: trojan, password: Pt00e78ux4yK, sni: appsvs.shop, skip-cert-verify: false}
   - {name: "|-TG@Warp_Key", server: 23.225.64.106, port: 14880, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 2", server: 8.217.121.207, port: 2087, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 3", server: 35.221.131.178, port: 10240, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 4", server: 124.156.203.197, port: 38111, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 5", server: 141.11.139.211, port: 8443, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 6", server: 152.70.90.168, port: 443, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 7", server: 199.19.110.126, port: 17062, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: "|-TG@Warp_Key 2", server: 47.243.243.14, port: 2053, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: "|-TG@Warp_Key 3", server: 60.248.63.88, port: 12832, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: "|-TG@Warp_Key 4", server: 43.156.56.22, port: 7676, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: "|-TG@Warp_Key 5", server: 212.50.247.70, port: 8848, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: "|-TG@Warp_Key 6", server: 129.154.223.89, port: 15800, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: "|-TG@Warp_Key 7", server: 154.17.27.8, port: 48655, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
   - {name: TG频道@warp_key频道优选, server: cdn.idouyin.tk, port: 8443, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
   - {name: 🇭🇰 HK-TG@Warp_Key, server: 47.76.146.1, port: 2083, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
   - {name: 🇭🇰 HK-TG@Warp_Key 2, server: 183.178.22.246, port: 11417, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
@@ -150,6 +133,15 @@ proxies:
   - {name: 🇹🇼 TW-TG频道@Warp_Key 4, server: 35.221.131.178, port: 10240, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
   - {name: 🇯🇵 JP-TG频道@Warp_Key 4, server: 45.117.103.199, port: 990, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
   - {name: 🇺🇸 US-TG频道@Warp_Key 4, server: 199.19.110.126, port: 17062, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
+  - {name: 🇯🇵 JP-TG频道@Warp_Key 5, server: 38.47.121.93, port: 8081, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
+  - {name: 🇭🇰 HK-TG频道@Warp_Key 11, server: 119.28.42.63, port: 3069, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
+  - {name: 🇭🇰 HK-TG频道@Warp_Key 12, server: 8.218.8.142, port: 2053, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
+  - {name: 🇭🇰 HK-TG频道@Warp_Key 13, server: 47.243.243.14, port: 2053, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
+  - {name: 🇹🇼 TW-TG频道@Warp_Key 5, server: 60.248.63.88, port: 12832, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
+  - {name: 🇸🇬 SG-TG频道@Warp_Key 3, server: 43.156.56.22, port: 7676, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
+  - {name: 🇯🇵 JP-TG频道@Warp_Key 6, server: 212.50.247.70, port: 8848, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
+  - {name: 🇰🇷 KR-TG频道@Warp_Key 2, server: 129.154.223.89, port: 15800, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
+  - {name: 🇺🇸 US-TG频道@Warp_Key 5, server: 154.17.27.8, port: 48655, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -176,7 +168,6 @@ proxy-groups:
       - 🇩🇪 DE|-TG@Warp_Key 2
       - 🇩🇪 DE|-TG@Warp_Key 3
       - 🇩🇪 DE|-TG@Warp_Key 4
-      - 🇩🇪 DE|-TG@Warp_Key 5
       - 🇫🇷 FR|-TG@Warp_Key
       - 🇫🇷 FR|-TG@Warp_Key 2
       - 🇬🇧 GB|-TG@Warp_Key
@@ -184,25 +175,9 @@ proxy-groups:
       - 🇬🇧 GB|-TG@Warp_Key 3
       - 🇰🇷 KR|-TG@Warp_Key
       - 🇰🇷 KR|-TG@Warp_Key 2
-      - 🇸🇬 SG|-TG@Warp_Key
-      - 🇸🇬 SG|-TG@Warp_Key 2
       - 🇺🇸 US|-TG@Warp_Key
       - 🇺🇸 US|-TG@Warp_Key 2
       - 🇺🇸 US|-TG@Warp_Key 3
-      - 🇯🇵 JP|-TG@Warp_Key
-      - 🇯🇵 JP|-TG@Warp_Key 2
-      - 🇯🇵 JP|-TG@Warp_Key 3
-      - 🇯🇵 JP|-TG@Warp_Key 4
-      - 🇯🇵 JP|-TG@Warp_Key 5
-      - 🇸🇬 SG|-TG@Warp_Key 3
-      - 🇸🇬 SG|-TG@Warp_Key 4
-      - 🇸🇬 SG|-TG@Warp_Key 5
-      - 🇸🇬 SG|-TG@Warp_Key 6
-      - 🇸🇬 SG|-TG@Warp_Key 7
-      - 🇺🇸 US|-TG@Warp_Key 4
-      - 🇺🇸 US|-TG@Warp_Key 5
-      - 🇺🇸 US|-TG@Warp_Key 6
-      - 🇺🇸 US|-TG@Warp_Key 7
       - "|-TG@Warp_Key"
       - "|-TG@Warp_Key 2"
       - "|-TG@Warp_Key 3"
@@ -302,6 +277,15 @@ proxy-groups:
       - 🇹🇼 TW-TG频道@Warp_Key 4
       - 🇯🇵 JP-TG频道@Warp_Key 4
       - 🇺🇸 US-TG频道@Warp_Key 4
+      - 🇯🇵 JP-TG频道@Warp_Key 5
+      - 🇭🇰 HK-TG频道@Warp_Key 11
+      - 🇭🇰 HK-TG频道@Warp_Key 12
+      - 🇭🇰 HK-TG频道@Warp_Key 13
+      - 🇹🇼 TW-TG频道@Warp_Key 5
+      - 🇸🇬 SG-TG频道@Warp_Key 3
+      - 🇯🇵 JP-TG频道@Warp_Key 6
+      - 🇰🇷 KR-TG频道@Warp_Key 2
+      - 🇺🇸 US-TG频道@Warp_Key 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -564,17 +548,15 @@ proxy-groups:
       - 🇭🇰 HK-TG频道@Warp_Key 8
       - 🇭🇰 HK-TG频道@Warp_Key 9
       - 🇭🇰 HK-TG频道@Warp_Key 10
+      - 🇭🇰 HK-TG频道@Warp_Key 11
+      - 🇭🇰 HK-TG频道@Warp_Key 12
+      - 🇭🇰 HK-TG频道@Warp_Key 13
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP|-TG@Warp_Key
-      - 🇯🇵 JP|-TG@Warp_Key 2
-      - 🇯🇵 JP|-TG@Warp_Key 3
-      - 🇯🇵 JP|-TG@Warp_Key 4
-      - 🇯🇵 JP|-TG@Warp_Key 5
       - 🇯🇵 JP-TG@Warp_Key
       - 🇯🇵 JP-TG@Warp_Key 2
       - 🇯🇵 JP-TG@Warp_Key 3
@@ -591,6 +573,8 @@ proxy-groups:
       - 🇯🇵 JP-TG频道@Warp_Key 2
       - 🇯🇵 JP-TG频道@Warp_Key 3
       - 🇯🇵 JP-TG频道@Warp_Key 4
+      - 🇯🇵 JP-TG频道@Warp_Key 5
+      - 🇯🇵 JP-TG频道@Warp_Key 6
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -600,10 +584,6 @@ proxy-groups:
       - 🇺🇸 US|-TG@Warp_Key
       - 🇺🇸 US|-TG@Warp_Key 2
       - 🇺🇸 US|-TG@Warp_Key 3
-      - 🇺🇸 US|-TG@Warp_Key 4
-      - 🇺🇸 US|-TG@Warp_Key 5
-      - 🇺🇸 US|-TG@Warp_Key 6
-      - 🇺🇸 US|-TG@Warp_Key 7
       - 🇺🇸 US-TG@Warp_Key
       - 🇺🇸 US-TG@Warp_Key 2
       - 🇺🇸 US-TG@Warp_Key 3
@@ -614,6 +594,7 @@ proxy-groups:
       - 🇺🇸 US-TG频道@Warp_Key 2
       - 🇺🇸 US-TG频道@Warp_Key 3
       - 🇺🇸 US-TG频道@Warp_Key 4
+      - 🇺🇸 US-TG频道@Warp_Key 5
   - name: 🇹🇼 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -633,19 +614,13 @@ proxy-groups:
       - 🇹🇼 TW-TG频道@Warp_Key 2
       - 🇹🇼 TW-TG频道@Warp_Key 3
       - 🇹🇼 TW-TG频道@Warp_Key 4
+      - 🇹🇼 TW-TG频道@Warp_Key 5
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 SG|-TG@Warp_Key
-      - 🇸🇬 SG|-TG@Warp_Key 2
-      - 🇸🇬 SG|-TG@Warp_Key 3
-      - 🇸🇬 SG|-TG@Warp_Key 4
-      - 🇸🇬 SG|-TG@Warp_Key 5
-      - 🇸🇬 SG|-TG@Warp_Key 6
-      - 🇸🇬 SG|-TG@Warp_Key 7
       - 🇸🇬 SG-TG@Warp_Key
       - 🇸🇬 SG-TG@Warp_Key 2
       - 🇸🇬 SG-TG@Warp_Key 3
@@ -653,6 +628,7 @@ proxy-groups:
       - 🇸🇬 SG-TG@Warp_Key 5
       - 🇸🇬 SG-TG频道@Warp_Key
       - 🇸🇬 SG-TG频道@Warp_Key 2
+      - 🇸🇬 SG-TG频道@Warp_Key 3
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -674,6 +650,7 @@ proxy-groups:
       - 🇰🇷 KR-TG@Warp_Key 11
       - 🇰🇷 KR-TG@Warp_Key 12
       - 🇰🇷 KR-TG频道@Warp_Key
+      - 🇰🇷 KR-TG频道@Warp_Key 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
