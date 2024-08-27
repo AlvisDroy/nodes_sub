@@ -115,22 +115,22 @@ proxies:
   - {name: 🇺🇦 TG@ZDYZ2 -乌克兰🇺🇦, server: 45.153.229.108, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
   - {name: TG@ZDYZ2, server: 188.42.88.66, port: 2053, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
   - {name: TG@ZDYZ2 2, server: 205.233.181.36, port: 2053, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC, server: 104.19.36.189, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 2, server: 104.19.62.76, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 3, server: 162.159.136.109, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 4, server: 104.19.33.46, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 5, server: 104.19.63.238, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 6, server: 104.19.62.57, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 7, server: 104.19.62.55, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 8, server: 104.19.63.228, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT, server: 162.159.152.37, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 2, server: 162.159.153.61, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 3, server: 162.159.152.45, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 4, server: 162.159.152.130, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 5, server: 162.159.152.159, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 6, server: 162.159.152.127, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 7, server: 162.159.153.58, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 8, server: 162.159.153.230, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC, server: 104.19.58.223, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 2, server: 104.19.58.189, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 3, server: 104.19.32.123, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 4, server: 104.19.32.135, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 5, server: 104.19.57.38, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 6, server: 104.19.62.35, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 7, server: 104.19.62.132, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 8, server: 104.19.42.68, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT, server: 162.159.152.213, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 2, server: 162.159.152.130, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 3, server: 162.159.153.61, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 4, server: 162.159.153.213, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 5, server: 162.159.153.87, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 6, server: 162.159.153.230, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 7, server: 162.159.152.159, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 8, server: 162.159.153.41, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -980,7 +980,6 @@ rules:
   - DOMAIN-SUFFIX,rtbasia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sanya1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,scupio.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,serving-sys.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shuiguo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shuzilm.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,similarweb.com,🛑 广告拦截
@@ -1048,6 +1047,7 @@ rules:
   - DOMAIN-SUFFIX,wqmobile.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wrating.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wumii.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,wwads.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,xcy8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xdrig.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xiaozhen.com,🛑 广告拦截
@@ -1081,7 +1081,6 @@ rules:
   - DOMAIN-SUFFIX,zhjfad.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zqzxz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zzsx8.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,wwads.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,acuityplatform.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ad-stir.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ad-survey.com,🛑 广告拦截
@@ -2497,7 +2496,6 @@ rules:
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报消息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报消息,no-resolve
   - DOMAIN-KEYWORD,openai,🤖 OpenAi
-  - DOMAIN,gemini.google.com,🤖 OpenAi
   - DOMAIN-SUFFIX,auth0.com,🤖 OpenAi
   - DOMAIN-SUFFIX,challenges.cloudflare.com,🤖 OpenAi
   - DOMAIN-SUFFIX,chatgpt.com,🤖 OpenAi
@@ -2898,6 +2896,7 @@ rules:
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,iwara.tv,🌍 国外媒体
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
@@ -2996,7 +2995,6 @@ rules:
   - DOMAIN-SUFFIX,olevod.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,olevodtv.com,🌍 国外媒体
   - DOMAIN-KEYWORD,openai,🌍 国外媒体
-  - DOMAIN,gemini.google.com,🌍 国外媒体
   - DOMAIN-SUFFIX,auth0.com,🌍 国外媒体
   - DOMAIN-SUFFIX,challenges.cloudflare.com,🌍 国外媒体
   - DOMAIN-SUFFIX,chatgpt.com,🌍 国外媒体
@@ -3428,6 +3426,7 @@ rules:
   - DOMAIN-SUFFIX,answering-islam.org,🚀 节点选择
   - DOMAIN-SUFFIX,antd.org,🚀 节点选择
   - DOMAIN-SUFFIX,anthonycalzadilla.com,🚀 节点选择
+  - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,anti1984.com,🚀 节点选择
   - DOMAIN-SUFFIX,antichristendom.com,🚀 节点选择
   - DOMAIN-SUFFIX,antiwave.net,🚀 节点选择
@@ -3550,6 +3549,7 @@ rules:
   - DOMAIN-SUFFIX,axureformac.com,🚀 节点选择
   - DOMAIN-SUFFIX,azerbaycan.tv,🚀 节点选择
   - DOMAIN-SUFFIX,azerimix.com,🚀 节点选择
+  - DOMAIN-SUFFIX,azirevpn.com,🚀 节点选择
   - DOMAIN-SUFFIX,azubu.tv,🚀 节点选择
   - DOMAIN-SUFFIX,azurewebsites.net,🚀 节点选择
   - DOMAIN-SUFFIX,b-ok.cc,🚀 节点选择
@@ -3731,6 +3731,7 @@ rules:
   - DOMAIN-SUFFIX,blubrry.com,🚀 节点选择
   - DOMAIN-SUFFIX,blueangellive.com,🚀 节点选择
   - DOMAIN-SUFFIX,bmfinn.com,🚀 节点选择
+  - DOMAIN-SUFFIX,bnbstatic.com,🚀 节点选择
   - DOMAIN-SUFFIX,bnews.co,🚀 节点选择
   - DOMAIN-SUFFIX,bnext.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,bnn.co,🚀 节点选择
@@ -4083,6 +4084,7 @@ rules:
   - DOMAIN-SUFFIX,ck101.com,🚀 节点选择
   - DOMAIN-SUFFIX,clarionproject.org,🚀 节点选择
   - DOMAIN-SUFFIX,classicalguitarblog.net,🚀 节点选择
+  - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
   - DOMAIN-SUFFIX,clb.org.hk,🚀 节点选择
   - DOMAIN-SUFFIX,cleansite.biz,🚀 节点选择
   - DOMAIN-SUFFIX,cleansite.info,🚀 节点选择
@@ -4101,6 +4103,7 @@ rules:
   - DOMAIN-SUFFIX,clubhouseapi.com,🚀 节点选择
   - DOMAIN-SUFFIX,clyp.it,🚀 节点选择
   - DOMAIN-SUFFIX,cmcn.org,🚀 节点选择
+  - DOMAIN-SUFFIX,cmegroup.com,🚀 节点选择
   - DOMAIN-SUFFIX,cmi.org.tw,🚀 节点选择
   - DOMAIN-SUFFIX,cmoinc.org,🚀 节点选择
   - DOMAIN-SUFFIX,cms.gov,🚀 节点选择
@@ -5784,6 +5787,7 @@ rules:
   - DOMAIN-SUFFIX,imageab.com,🚀 节点选择
   - DOMAIN-SUFFIX,imagefap.com,🚀 节点选择
   - DOMAIN-SUFFIX,imageflea.com,🚀 节点选择
+  - DOMAIN-SUFFIX,imageglass.org,🚀 节点选择
   - DOMAIN-SUFFIX,images-gaytube.com,🚀 节点选择
   - DOMAIN-SUFFIX,imageshack.us,🚀 节点选择
   - DOMAIN-SUFFIX,imagevenue.com,🚀 节点选择
@@ -5901,6 +5905,7 @@ rules:
   - DOMAIN-SUFFIX,ivacy.com,🚀 节点选择
   - DOMAIN-SUFFIX,iverycd.com,🚀 节点选择
   - DOMAIN-SUFFIX,ivpn.net,🚀 节点选择
+  - DOMAIN-SUFFIX,iwara.tv,🚀 节点选择
   - DOMAIN-SUFFIX,ixquick.com,🚀 节点选择
   - DOMAIN-SUFFIX,ixxx.com,🚀 节点选择
   - DOMAIN-SUFFIX,iyouport.com,🚀 节点选择
@@ -7034,6 +7039,7 @@ rules:
   - DOMAIN-SUFFIX,perfect-privacy.com,🚀 节点选择
   - DOMAIN-SUFFIX,perfectgirls.net,🚀 节点选择
   - DOMAIN-SUFFIX,periscope.tv,🚀 节点选择
+  - DOMAIN-SUFFIX,perplexity.ai,🚀 节点选择
   - DOMAIN-SUFFIX,persecutionblog.com,🚀 节点选择
   - DOMAIN-SUFFIX,persiankitty.com,🚀 节点选择
   - DOMAIN-SUFFIX,phapluan.org,🚀 节点选择
@@ -7801,6 +7807,7 @@ rules:
   - DOMAIN-SUFFIX,storagenewsletter.com,🚀 节点选择
   - DOMAIN-SUFFIX,stories.google,🚀 节点选择
   - DOMAIN-SUFFIX,storify.com,🚀 节点选择
+  - DOMAIN-SUFFIX,storj.io,🚀 节点选择
   - DOMAIN-SUFFIX,storm.mg,🚀 节点选择
   - DOMAIN-SUFFIX,stormmediagroup.com,🚀 节点选择
   - DOMAIN-SUFFIX,stoweboyd.com,🚀 节点选择
@@ -8135,6 +8142,7 @@ rules:
   - DOMAIN-SUFFIX,tibetswiss.ch,🚀 节点选择
   - DOMAIN-SUFFIX,tibettelegraph.com,🚀 节点选择
   - DOMAIN-SUFFIX,tibettimes.net,🚀 节点选择
+  - DOMAIN-SUFFIX,tibettruth.com,🚀 节点选择
   - DOMAIN-SUFFIX,tibetwrites.org,🚀 节点选择
   - DOMAIN-SUFFIX,ticket.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,tigervpn.com,🚀 节点选择
@@ -8460,7 +8468,7 @@ rules:
   - DOMAIN-SUFFIX,us.to,🚀 节点选择
   - DOMAIN-SUFFIX,usacn.com,🚀 节点选择
   - DOMAIN-SUFFIX,usaip.eu,🚀 节点选择
-  - DOMAIN-SUFFIX,usc.edu,🚀 节点选择
+  - DOMAIN-SUFFIX,uscardforum.com,🚀 节点选择
   - DOMAIN-SUFFIX,uscnpm.org,🚀 节点选择
   - DOMAIN-SUFFIX,usembassy.gov,🚀 节点选择
   - DOMAIN-SUFFIX,usfk.mil,🚀 节点选择
@@ -9228,6 +9236,7 @@ rules:
   - DOMAIN-SUFFIX,cdninstagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,instagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,instagr.am,🚀 节点选择
+  - DOMAIN-SUFFIX,iwara.tv,🚀 节点选择
   - DOMAIN-SUFFIX,kakao.com,🚀 节点选择
   - DOMAIN-SUFFIX,kakao.co.kr,🚀 节点选择
   - DOMAIN-SUFFIX,kakaocdn.net,🚀 节点选择
@@ -9549,6 +9558,8 @@ rules:
   - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
   - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
   - DOMAIN-SUFFIX,udache.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytefcdnrd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,edgesrv.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyu.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyu.tv,🎯 全球直连
   - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
@@ -9858,6 +9869,7 @@ rules:
   - DOMAIN-SUFFIX,kaola.com,🎯 全球直连
   - DOMAIN-SUFFIX,knewone.com,🎯 全球直连
   - DOMAIN-SUFFIX,koowo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,koyso.com,🎯 全球直连
   - DOMAIN-SUFFIX,ksyungslb.com,🎯 全球直连
   - DOMAIN-SUFFIX,kuaidi100.com,🎯 全球直连
   - DOMAIN-SUFFIX,kugou.com,🎯 全球直连
