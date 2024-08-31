@@ -115,29 +115,22 @@ proxies:
   - {name: 🇺🇦 TG@ZDYZ2 -乌克兰🇺🇦, server: 45.153.229.108, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
   - {name: TG@ZDYZ2, server: 188.42.88.66, port: 2053, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
   - {name: TG@ZDYZ2 2, server: 205.233.181.36, port: 2053, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC, server: 104.19.32.47, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 2, server: 104.19.56.224, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 3, server: 104.19.58.143, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 4, server: 104.19.32.25, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 5, server: 104.19.63.124, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 6, server: 104.19.62.17, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 7, server: 104.19.32.137, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 8, server: 104.19.56.237, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT, server: 162.159.152.22, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 2, server: 162.159.152.91, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 3, server: 162.159.152.214, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 4, server: 162.159.153.119, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 5, server: 162.159.153.109, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 6, server: 162.159.152.46, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 7, server: 162.159.152.45, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 8, server: 162.159.153.13, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 9, server: 104.19.33.99, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 10, server: 104.19.58.170, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 11, server: 104.19.32.139, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CMCC 12, server: 104.19.33.103, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 9, server: 162.159.153.2, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 10, server: 162.159.153.210, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
-  - {name: CT 11, server: 162.159.152.145, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC, server: 104.19.32.108, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 2, server: 104.19.34.24, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 3, server: 104.19.34.21, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 4, server: 104.19.35.128, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 5, server: 104.19.34.22, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 6, server: 104.19.33.145, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 7, server: 104.19.32.105, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CMCC 8, server: 104.19.32.96, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT, server: 162.159.152.150, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 2, server: 162.159.153.143, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 3, server: 162.159.153.90, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 4, server: 162.159.153.190, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 5, server: 162.159.153.9, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 6, server: 162.159.153.95, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 7, server: 162.159.153.58, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
+  - {name: CT 8, server: 162.159.153.3, port: 443, client-fingerprint: random, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, tfo: false, skip-cert-verify: true, servername: cfed.tgzdyz2.top, network: ws, ws-opts: {path: "/TG@ZDYZ2?ed=2560", headers: {Host: cfed.tgzdyz2.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -271,13 +264,6 @@ proxy-groups:
       - CT 6
       - CT 7
       - CT 8
-      - CMCC 9
-      - CMCC 10
-      - CMCC 11
-      - CMCC 12
-      - CT 9
-      - CT 10
-      - CT 11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -311,13 +297,6 @@ proxy-groups:
       - CT 6
       - CT 7
       - CT 8
-      - CMCC 9
-      - CMCC 10
-      - CMCC 11
-      - CMCC 12
-      - CT 9
-      - CT 10
-      - CT 11
   - name: 📲 电报消息
     type: select
     proxies:
@@ -11025,4 +11004,11 @@ rules:
   - DOMAIN,vgieu16g7s.adobestats.io,🍃 应用净化
   - DOMAIN,w25ijw4ebd.adobestats.io,🍃 应用净化
   - DOMAIN,wyxrzcfpte.adobestats.io,🍃 应用净化
+  - DOMAIN,93up6jlw8l.adobestats.io,🍃 应用净化
+  - DOMAIN,ui5m4exlcw.adobestats.io,🍃 应用净化
+  - DOMAIN,04jkjo2db5.adobestats.io,🍃 应用净化
+  - DOMAIN,20x112xlz4.adobestats.io,🍃 应用净化
+  - DOMAIN,osp3g9p4c9.adobestats.io,🍃 应用净化
+  - DOMAIN,dmi13b9vlo.adobestats.io,🍃 应用净化
+  - DOMAIN,pndiszyo9k.adobestats.io,🍃 应用净化
   - MATCH,🐟 漏网之鱼
