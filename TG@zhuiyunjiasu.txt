@@ -15,17 +15,17 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: 香港-1Gbps, server: zzxg.tiktokcn.xyz, port: 29334, up: 2048, down: 2048, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-新加坡-1-4Gbps, server: xjp1111.yjy.lol, port: 23265, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-新加坡-2-4Gbps, server: xjp22.yjy.lol, port: 45100, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-新加坡-3-4Gbps, server: xxjjpp.yjy.lol, port: 39202, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-新加坡-4-4Gbps, server: xjp4.yjy.lol, port: 43167, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-韩国-10Gbps, server: cc.sux.lol, port: 42633, up: 8192, down: 8192, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-瑞典-10Gbps, server: ruidian.tiktokcn.xyz, port: 33204, up: 8192, down: 8192, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-墨西哥蒙特雷-4Gbps, server: mtl.tiktokcn.xyz, port: 20488, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-德国法兰克福-4Gbps, server: flkf.tiktokcn.xyz, port: 34666, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-圣何塞1-50Mbps, server: shs11.yjy.lol, port: 35773, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-圣何塞2-50Mbps, server: shs223.yjy.lol, port: 33579, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: 香港-1Gbps, server: zzxg.tiktokcn.xyz, port: 36296, up: 2048, down: 2048, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-新加坡-1-4Gbps, server: xjp1111.yjy.lol, port: 31484, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-新加坡-2-4Gbps, server: xjp22.yjy.lol, port: 35249, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-新加坡-3-4Gbps, server: xxjjpp.yjy.lol, port: 45948, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-新加坡-4-4Gbps, server: xjp4.yjy.lol, port: 24669, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-韩国-10Gbps, server: cc.sux.lol, port: 42322, up: 8192, down: 8192, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-瑞典-10Gbps, server: ruidian.tiktokcn.xyz, port: 23350, up: 8192, down: 8192, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-墨西哥蒙特雷-4Gbps, server: mtl.tiktokcn.xyz, port: 42438, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-德国法兰克福-4Gbps, server: flkf.tiktokcn.xyz, port: 25112, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-圣何塞1-50Mbps, server: shs11.yjy.lol, port: 38193, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-圣何塞2-50Mbps, server: shs223.yjy.lol, port: 47539, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
 proxy-groups:
     - { name: 追云加速器, type: select, proxies: [自动选择, 故障转移, 香港-1Gbps, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps, Oracle-韩国-10Gbps, Oracle-瑞典-10Gbps, Oracle-墨西哥蒙特雷-4Gbps, Oracle-德国法兰克福-4Gbps, Oracle-圣何塞1-50Mbps, Oracle-圣何塞2-50Mbps] }
     - { name: 自动选择, type: url-test, proxies: [香港-1Gbps, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps, Oracle-韩国-10Gbps, Oracle-瑞典-10Gbps, Oracle-墨西哥蒙特雷-4Gbps, Oracle-德国法兰克福-4Gbps, Oracle-圣何塞1-50Mbps, Oracle-圣何塞2-50Mbps], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
