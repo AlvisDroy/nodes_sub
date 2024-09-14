@@ -15,33 +15,39 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: Oracle-韩国-4Gbps, server: cc.sux.lol, port: 49847, up: 8192, down: 8192, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-新加坡-1-4Gbps, server: xjp1111.yjy.lol, port: 34743, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-新加坡-2-4Gbps, server: xjp22.yjy.lol, port: 42747, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-新加坡-3-4Gbps, server: xxjjpp.yjy.lol, port: 31438, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-新加坡-4-4Gbps, server: xjp4.yjy.lol, port: 38080, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: 香港-速度拉跨, server: zzxg.tiktokcn.xyz, port: 27148, up: 2048, down: 2048, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-瑞典-10Gbps, server: ruidian.tiktokcn.xyz, port: 21723, up: 8192, down: 8192, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-墨西哥蒙特雷-4Gbps, server: mtl.tiktokcn.xyz, port: 48701, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-德国法兰克福-4Gbps, server: flkf.tiktokcn.xyz, port: 24228, up: 4096, down: 4096, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-圣何塞1-50Mbps, server: shs11.yjy.lol, port: 28630, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-圣何塞2-50Mbps, server: shs223.yjy.lol, port: 38598, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: 请务必添加群聊@zhuiyunjiasu, server: shs2233.yjy.lol, port: 38122, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: 更快的节点速度请购买VIP套餐, server: shs1111.yjy.lol, port: 20036, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: 付款用户7x24疑难解答, server: shouer50.yjy.lol, port: 34858, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-春川-4Gbps, server: cc.sux.lol, port: 23018, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-首尔-4Gbps, server: shouer4gbps.yjy.lol, port: 20620, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-首尔-500M, server: shouer500.yjy.lol, port: 30137, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-新加坡-1-4Gbps, server: poxi.yjy.lol, port: 28753, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-新加坡-2-4Gbps, server: xjp222.yjy.lol, port: 20169, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-新加坡-3-4Gbps, server: xxjjpp.yjy.lol, port: 24655, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-新加坡-4-4Gbps, server: xjp444.yjy.lol, port: 36763, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-墨西哥蒙特雷-4Gbps, server: mtl.tiktokcn.xyz, port: 32427, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-德国法兰克福-4Gbps, server: flkf.tiktokcn.xyz, port: 37212, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-瑞典-10Gbps, server: ruidian.tiktokcn.xyz, port: 49604, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: 香港-速度拉跨, server: zzxg.tiktokcn.xyz, port: 21742, up: 50, down: 50, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
 proxy-groups:
-    - { name: 追云加速器, type: select, proxies: [自动选择, 故障转移, Oracle-韩国-4Gbps, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps, 香港-速度拉跨, Oracle-瑞典-10Gbps, Oracle-墨西哥蒙特雷-4Gbps, Oracle-德国法兰克福-4Gbps, Oracle-圣何塞1-50Mbps, Oracle-圣何塞2-50Mbps] }
-    - { name: 自动选择, type: url-test, proxies: [Oracle-韩国-4Gbps, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps, 香港-速度拉跨, Oracle-瑞典-10Gbps, Oracle-墨西哥蒙特雷-4Gbps, Oracle-德国法兰克福-4Gbps, Oracle-圣何塞1-50Mbps, Oracle-圣何塞2-50Mbps], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: [Oracle-韩国-4Gbps, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps, 香港-速度拉跨, Oracle-瑞典-10Gbps, Oracle-墨西哥蒙特雷-4Gbps, Oracle-德国法兰克福-4Gbps, Oracle-圣何塞1-50Mbps, Oracle-圣何塞2-50Mbps], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 追云加速器, type: select, proxies: [自动选择, 故障转移, 请务必添加群聊@zhuiyunjiasu, 更快的节点速度请购买VIP套餐, 付款用户7x24疑难解答, Oracle-春川-4Gbps, Oracle-首尔-4Gbps, Oracle-首尔-500M, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps, Oracle-墨西哥蒙特雷-4Gbps, Oracle-德国法兰克福-4Gbps, Oracle-瑞典-10Gbps, 香港-速度拉跨] }
+    - { name: 自动选择, type: url-test, proxies: [请务必添加群聊@zhuiyunjiasu, 更快的节点速度请购买VIP套餐, 付款用户7x24疑难解答, Oracle-春川-4Gbps, Oracle-首尔-4Gbps, Oracle-首尔-500M, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps, Oracle-墨西哥蒙特雷-4Gbps, Oracle-德国法兰克福-4Gbps, Oracle-瑞典-10Gbps, 香港-速度拉跨], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: [请务必添加群聊@zhuiyunjiasu, 更快的节点速度请购买VIP套餐, 付款用户7x24疑难解答, Oracle-春川-4Gbps, Oracle-首尔-4Gbps, Oracle-首尔-500M, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps, Oracle-墨西哥蒙特雷-4Gbps, Oracle-德国法兰克福-4Gbps, Oracle-瑞典-10Gbps, 香港-速度拉跨], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
-    - 'IP-CIDR,155.248.214.80/32,DIRECT,no-resolve'
-    - 'IP-CIDR,192.9.131.67/32,DIRECT,no-resolve'
+    - 'IP-CIDR,107.174.36.203/32,DIRECT,no-resolve'
+    - 'IP-CIDR,158.179.207.156/32,DIRECT,no-resolve'
     - 'IP-CIDR,138.2.150.59/32,DIRECT,no-resolve'
     - 'IP-CIDR,139.177.101.249/32,DIRECT,no-resolve'
-    - 'IP-CIDR,158.179.207.156/32,DIRECT,no-resolve'
-    - 'IP-CIDR,107.174.36.203/32,DIRECT,no-resolve'
     - 'IP-CIDR,140.245.35.56/32,DIRECT,no-resolve'
     - 'IP-CIDR,140.245.49.111/32,DIRECT,no-resolve'
-    - 'IP-CIDR,217.142.190.44/32,DIRECT,no-resolve'
-    - 'IP-CIDR,140.245.53.131/32,DIRECT,no-resolve'
+    - 'IP-CIDR,140.245.60.117/32,DIRECT,no-resolve'
+    - 'IP-CIDR,140.245.61.216/32,DIRECT,no-resolve'
+    - 'IP-CIDR,129.154.217.162/32,DIRECT,no-resolve'
+    - 'IP-CIDR,146.56.40.172/32,DIRECT,no-resolve'
     - 'IP-CIDR,146.56.110.10/32,DIRECT,no-resolve'
+    - 'IP-CIDR,140.238.7.1/32,DIRECT,no-resolve'
+    - 'IP-CIDR,192.9.131.67/32,DIRECT,no-resolve'
+    - 'IP-CIDR,155.248.214.80/32,DIRECT,no-resolve'
     - 'DOMAIN,jc.sux.lol,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,追云加速器'
     - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,追云加速器'
