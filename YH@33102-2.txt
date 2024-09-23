@@ -15,8 +15,8 @@ dns:
     fallback: ['https://dns.alidns.com/dns-query', 'https://dns.cloudflare.com/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - {name: 🇭🇰HK-Oracle Cloud, type: vless, server: 154.194.64.131, port: 9888, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
-    - {name: 🇭🇰HK-45102-45102, type: vless, server: 47.242.59.213, port: 39124, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
+    - {name: 🇭🇰HK-Cnservers LLC, type: vless, server: 163.53.246.105, port: 25930, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
+    - {name: 🇭🇰HK-45102-Alibaba, type: vless, server: 47.242.126.60, port: 32606, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
     - {name: 🇹🇼TW-HostingInside LTD., type: vless, server: 2.58.243.142, port: 30001, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
     - {name: 🇯🇵JP-IT7 Networks, type: vless, server: 212.50.254.116, port: 26774, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
     - {name: 🇺🇸US-DMIT, type: vless, server: 154.21.81.73, port: 16295, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
@@ -26,7 +26,7 @@ proxies:
     - {name: Cloudflare-Anycast, type: vless, server: word.212124.xyz, port: 443, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: false}
 proxy-providers: {WARP: {type: http, path: ./warp.yaml, url: 'https://neko-warp.nloli.xyz/neko_warp.yaml', interval: 3600, health-check: {enable: true, url: 'https://www.gstatic.com/generate_204', interval: 300}}}
 proxy-groups:
-    - { name: PROXY, type: select, proxies: ["TG Channel: @cf_no1", Cloudflare-Anycast, 🇭🇰HK-Oracle Cloud, 🇭🇰HK-45102-45102, 🇹🇼TW-HostingInside LTD., 🇯🇵JP-IT7 Networks, 🇺🇸US-DMIT], use: [WARP] }
+    - { name: PROXY, type: select, proxies: ["TG Channel: @cf_no1", Cloudflare-Anycast, 🇭🇰HK-Cnservers LLC, 🇭🇰HK-45102-Alibaba, 🇹🇼TW-HostingInside LTD., 🇯🇵JP-IT7 Networks, 🇺🇸US-DMIT], use: [WARP] }
 rule-providers:
     reject: { type: http, behavior: domain, url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt', path: ./ruleset/reject.yaml, interval: 86400 }
     icloud: { type: http, behavior: domain, url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt', path: ./ruleset/icloud.yaml, interval: 86400 }
