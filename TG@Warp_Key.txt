@@ -47,11 +47,11 @@ proxies:
   - {name: 🇺🇸 US|-TG@Warp_Key 7, server: 54.71.210.254, port: 14792, client-fingerprint: chrome, type: trojan, password: lhW(t)kw)mdN, sni: appsvs.shop, skip-cert-verify: false}
   - {name: 🇺🇸 US|-TG@Warp_Key 8, server: 35.86.151.77, port: 14820, client-fingerprint: chrome, type: trojan, password: U8Tt(VAqTen2, sni: appsvs.shop, skip-cert-verify: false}
   - {name: 🇺🇸 US|-TG@Warp_Key 9, server: 44.223.106.182, port: 14787, client-fingerprint: chrome, type: trojan, password: zixGcZjzWxMG, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: "|-TG@Warp_Key", server: 154.194.64.130, port: 9888, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 2", server: 47.242.172.10, port: 51952, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 3", server: 140.120.44.31, port: 11449, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: 🇯🇵 JP|-TG@Warp_Key, server: 154.19.186.124, port: 16873, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 4", server: 65.49.195.33, port: 8389, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: "|-TG@Warp_Key", server: 154.194.64.139, port: 9888, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: "|-TG@Warp_Key 2", server: 47.243.234.231, port: 20660, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: "|-TG@Warp_Key 3", server: 59.120.116.28, port: 34076, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: "|-TG@Warp_Key 4", server: 212.50.246.29, port: 55567, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: "|-TG@Warp_Key 5", server: 64.64.243.90, port: 19822, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
   - {name: TG频道@warp_key频道优选, server: cdn.idouyin.tk, port: 8443, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
   - {name: 🇭🇰 HK-TG@Warp_Key, server: 47.76.146.1, port: 2083, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
   - {name: 🇭🇰 HK-TG@Warp_Key 2, server: 183.178.22.246, port: 11417, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
@@ -314,8 +314,8 @@ proxy-groups:
       - "|-TG@Warp_Key"
       - "|-TG@Warp_Key 2"
       - "|-TG@Warp_Key 3"
-      - 🇯🇵 JP|-TG@Warp_Key
       - "|-TG@Warp_Key 4"
+      - "|-TG@Warp_Key 5"
       - TG频道@warp_key频道优选
       - 🇭🇰 HK-TG@Warp_Key
       - 🇭🇰 HK-TG@Warp_Key 2
@@ -578,8 +578,8 @@ proxy-groups:
       - "|-TG@Warp_Key"
       - "|-TG@Warp_Key 2"
       - "|-TG@Warp_Key 3"
-      - 🇯🇵 JP|-TG@Warp_Key
       - "|-TG@Warp_Key 4"
+      - "|-TG@Warp_Key 5"
       - TG频道@warp_key频道优选
       - 🇭🇰 HK-TG@Warp_Key
       - 🇭🇰 HK-TG@Warp_Key 2
@@ -1083,7 +1083,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP|-TG@Warp_Key
       - 🇯🇵 JP-TG@Warp_Key
       - 🇯🇵 JP-TG@Warp_Key 2
       - 🇯🇵 JP-TG@Warp_Key 3
@@ -11732,4 +11731,29 @@ rules:
   - DOMAIN,666jnxks4d.adobestats.io,🍃 应用净化
   - DOMAIN,wujfm82qyd.adobestats.io,🍃 应用净化
   - DOMAIN,vgetwxoqno.adobe.io,🍃 应用净化
+  - DOMAIN,12zow70qyg.adobestats.io,🍃 应用净化
+  - DOMAIN,17rznd8ped.adobestats.io,🍃 应用净化
+  - DOMAIN,1mqvqabmi0.adobestats.io,🍃 应用净化
+  - DOMAIN,86r5sgpc5i.adobestats.io,🍃 应用净化
+  - DOMAIN,9aa2r7kikj.adobestats.io,🍃 应用净化
+  - DOMAIN,ecdcuflr6b.adobestats.io,🍃 应用净化
+  - DOMAIN,g3x2gf65lr.adobestats.io,🍃 应用净化
+  - DOMAIN,h97lgqk8bo.adobestats.io,🍃 应用净化
+  - DOMAIN,jv4pl10h5s.adobestats.io,🍃 应用净化
+  - DOMAIN,jzh1rdq07h.adobestats.io,🍃 应用净化
+  - DOMAIN,ou6wlq2xxk.adobestats.io,🍃 应用净化
+  - DOMAIN,p2hljfs4ui.adobestats.io,🍃 应用净化
+  - DOMAIN,p5lr643921.adobestats.io,🍃 应用净化
+  - DOMAIN,p882on2mec.adobestats.io,🍃 应用净化
+  - DOMAIN,qrz7h0bk0d.adobestats.io,🍃 应用净化
+  - DOMAIN,tpa7l912ct.adobestats.io,🍃 应用净化
+  - DOMAIN,utl2ryss9g.adobestats.io,🍃 应用净化
+  - DOMAIN,y8nrk9ev78.adobestats.io,🍃 应用净化
+  - DOMAIN,yabyd58pwe.adobestats.io,🍃 应用净化
+  - DOMAIN,yvz37f39o9.adobestats.io,🍃 应用净化
+  - DOMAIN,z9cyo99ees.adobestats.io,🍃 应用净化
+  - DOMAIN,eljpnp7pwp.adobestats.io,🍃 应用净化
+  - DOMAIN,9cq4sjum6s.adobestats.io,🍃 应用净化
+  - DOMAIN,f34mf655aw.adobestats.io,🍃 应用净化
+  - DOMAIN,m4ldtnfvqf.adobestats.io,🍃 应用净化
   - MATCH,🐟 漏网之鱼
