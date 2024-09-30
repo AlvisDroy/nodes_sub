@@ -15,18 +15,18 @@ dns:
     fallback: ['https://dns.alidns.com/dns-query', 'https://dns.cloudflare.com/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - {name: 🇭🇰HK-Oracle Cloud, type: vless, server: 154.194.64.140, port: 9888, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
-    - {name: 🇭🇰HK-45102-Alibaba, type: vless, server: 8.217.229.36, port: 41043, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
-    - {name: 🇹🇼TW-National Chung Hsing University, type: vless, server: 140.120.44.31, port: 11449, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
-    - {name: 🇯🇵JP-xTom, type: vless, server: 167.88.184.224, port: 35834, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
-    - {name: 🇺🇸US-IT7 Networks, type: vless, server: 65.49.221.20, port: 57815, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
+    - {name: 🇭🇰HK-Cloudie, type: vless, server: 45.89.233.64, port: 25229, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
+    - {name: 🇭🇰HK-45102-Alibaba, type: vless, server: 47.242.126.60, port: 44491, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
+    - {name: 🇹🇼TW-Chunghwa Telecom, type: vless, server: 118.163.93.53, port: 81, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
+    - {name: 🇯🇵JP-4785, type: vless, server: 167.88.184.224, port: 35834, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
+    - {name: 🇺🇸US-DMIT, type: vless, server: 154.17.23.129, port: 13551, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
 
     # Domain
     - {name: "TG Channel: @cf_no1" , type: vless, server: vless.cfno1.212124.xyz, port: 443, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: vless.cfno1.212124.xyz}}, udp: false}
     - {name: Cloudflare-Anycast, type: vless, server: word.212124.xyz, port: 443, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: false}
 proxy-providers: {WARP: {type: http, path: ./warp.yaml, url: 'https://neko-warp.nloli.xyz/neko_warp.yaml', interval: 3600, health-check: {enable: true, url: 'https://www.gstatic.com/generate_204', interval: 300}}}
 proxy-groups:
-    - { name: PROXY, type: select, proxies: ["TG Channel: @cf_no1", Cloudflare-Anycast, 🇭🇰HK-Oracle Cloud, 🇭🇰HK-45102-Alibaba, 🇹🇼TW-National Chung Hsing University, 🇯🇵JP-xTom, 🇺🇸US-IT7 Networks], use: [WARP] }
+    - { name: PROXY, type: select, proxies: ["TG Channel: @cf_no1", Cloudflare-Anycast, 🇭🇰HK-Cloudie, 🇭🇰HK-45102-Alibaba, 🇹🇼TW-Chunghwa Telecom, 🇯🇵JP-4785, 🇺🇸US-DMIT], use: [WARP] }
 rule-providers:
     reject: { type: http, behavior: domain, url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt', path: ./ruleset/reject.yaml, interval: 86400 }
     icloud: { type: http, behavior: domain, url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt', path: ./ruleset/icloud.yaml, interval: 86400 }
