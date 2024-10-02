@@ -47,11 +47,11 @@ proxies:
   - {name: 🇺🇸 US|-TG@Warp_Key 7, server: 54.71.210.254, port: 14792, client-fingerprint: chrome, type: trojan, password: lhW(t)kw)mdN, sni: appsvs.shop, skip-cert-verify: false}
   - {name: 🇺🇸 US|-TG@Warp_Key 8, server: 35.86.151.77, port: 14820, client-fingerprint: chrome, type: trojan, password: U8Tt(VAqTen2, sni: appsvs.shop, skip-cert-verify: false}
   - {name: 🇺🇸 US|-TG@Warp_Key 9, server: 44.223.106.182, port: 14787, client-fingerprint: chrome, type: trojan, password: zixGcZjzWxMG, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: "|-TG@Warp_Key", server: 20.187.182.254, port: 4201, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 2", server: 8.217.92.152, port: 62001, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 3", server: 210.61.97.241, port: 81, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 4", server: 45.159.51.121, port: 32199, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
-  - {name: "|-TG@Warp_Key 5", server: 173.242.124.213, port: 443, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: 🇭🇰 HK|-TG@Warp_Key, server: 20.187.182.254, port: 4201, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: 🇭🇰 HK|-TG@Warp_Key 2, server: 47.243.123.84, port: 48702, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: 🇹🇼 TW|-TG@Warp_Key, server: 59.120.116.28, port: 34076, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: 🇯🇵 JP|-TG@Warp_Key, server: 34.146.71.189, port: 44454, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
+  - {name: 🇺🇸 US|-TG@Warp_Key 10, server: 173.242.124.213, port: 443, client-fingerprint: randomized, type: vless, uuid: de44b044-8f90-4e18-b742-16591667ff96, tls: true, tfo: false, skip-cert-verify: false, servername: edgetunnel-free.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: edgetunnel-free.pages.dev}}}
   - {name: TG频道@warp_key频道优选, server: cdn.idouyin.tk, port: 8443, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
   - {name: 🇭🇰 HK-TG@Warp_Key, server: 47.76.146.1, port: 2083, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
   - {name: 🇭🇰 HK-TG@Warp_Key 2, server: 183.178.22.246, port: 11417, client-fingerprint: random, type: vless, uuid: 7f14e42a-f453-4c39-a762-019ee493237d, tls: true, tfo: false, skip-cert-verify: false, servername: zhongkui.pages.dev, network: ws, ws-opts: {path: "/?end=@warp_key", headers: {Host: zhongkui.pages.dev}}}
@@ -311,11 +311,11 @@ proxy-groups:
       - 🇺🇸 US|-TG@Warp_Key 7
       - 🇺🇸 US|-TG@Warp_Key 8
       - 🇺🇸 US|-TG@Warp_Key 9
-      - "|-TG@Warp_Key"
-      - "|-TG@Warp_Key 2"
-      - "|-TG@Warp_Key 3"
-      - "|-TG@Warp_Key 4"
-      - "|-TG@Warp_Key 5"
+      - 🇭🇰 HK|-TG@Warp_Key
+      - 🇭🇰 HK|-TG@Warp_Key 2
+      - 🇹🇼 TW|-TG@Warp_Key
+      - 🇯🇵 JP|-TG@Warp_Key
+      - 🇺🇸 US|-TG@Warp_Key 10
       - TG频道@warp_key频道优选
       - 🇭🇰 HK-TG@Warp_Key
       - 🇭🇰 HK-TG@Warp_Key 2
@@ -575,11 +575,11 @@ proxy-groups:
       - 🇺🇸 US|-TG@Warp_Key 7
       - 🇺🇸 US|-TG@Warp_Key 8
       - 🇺🇸 US|-TG@Warp_Key 9
-      - "|-TG@Warp_Key"
-      - "|-TG@Warp_Key 2"
-      - "|-TG@Warp_Key 3"
-      - "|-TG@Warp_Key 4"
-      - "|-TG@Warp_Key 5"
+      - 🇭🇰 HK|-TG@Warp_Key
+      - 🇭🇰 HK|-TG@Warp_Key 2
+      - 🇹🇼 TW|-TG@Warp_Key
+      - 🇯🇵 JP|-TG@Warp_Key
+      - 🇺🇸 US|-TG@Warp_Key 10
       - TG频道@warp_key频道优选
       - 🇭🇰 HK-TG@Warp_Key
       - 🇭🇰 HK-TG@Warp_Key 2
@@ -1002,6 +1002,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 HK|-TG@Warp_Key
+      - 🇭🇰 HK|-TG@Warp_Key 2
       - 🇭🇰 HK-TG@Warp_Key
       - 🇭🇰 HK-TG@Warp_Key 2
       - 🇭🇰 HK-TG@Warp_Key 3
@@ -1083,6 +1085,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 JP|-TG@Warp_Key
       - 🇯🇵 JP-TG@Warp_Key
       - 🇯🇵 JP-TG@Warp_Key 2
       - 🇯🇵 JP-TG@Warp_Key 3
@@ -1131,6 +1134,7 @@ proxy-groups:
       - 🇺🇸 US|-TG@Warp_Key 7
       - 🇺🇸 US|-TG@Warp_Key 8
       - 🇺🇸 US|-TG@Warp_Key 9
+      - 🇺🇸 US|-TG@Warp_Key 10
       - 🇺🇸 US-TG@Warp_Key
       - 🇺🇸 US-TG@Warp_Key 2
       - 🇺🇸 US-TG@Warp_Key 3
@@ -1162,6 +1166,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇹🇼 TW|-TG@Warp_Key
       - 🇹🇼 TW-TG@Warp_Key
       - 🇹🇼 TW-TG@Warp_Key 2
       - 🇹🇼 TW-TG@Warp_Key 3
