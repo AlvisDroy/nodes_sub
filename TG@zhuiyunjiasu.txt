@@ -15,24 +15,23 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: 请务必添加群聊@zhuiyunjiasu, server: shs2233.yjy.lol, port: 40340, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: 更快的节点速度请购买VIP套餐, server: shs1111.yjy.lol, port: 27001, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: 付款用户7x24疑难解答, server: shouer50.yjy.lol, port: 29248, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-春川-4Gbps, server: cc.sux.lol, port: 30972, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-沙特-4Gbps, server: shate.tiktokcn.xyz, port: 49202, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-首尔-4Gbps, server: shouer4gbps.yjy.lol, port: 36037, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-首尔-500M, server: shouer500.yjy.lol, port: 43045, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-新加坡-1-4Gbps, server: poxi.yjy.lol, port: 44094, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-新加坡-2-4Gbps, server: xjp222.yjy.lol, port: 37429, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-新加坡-3-4Gbps, server: xxjjpp.yjy.lol, port: 30504, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-新加坡-4-4Gbps, server: xjp444.yjy.lol, port: 38685, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
-    - { name: Oracle-墨西哥蒙特雷-4Gbps, server: mtl.tiktokcn.xyz, port: 26916, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: 请务必添加群聊@zhuiyunjiasu, server: shs2233.yjy.lol, port: 22809, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: 更快的节点速度请购买VIP套餐, server: shs1111.yjy.lol, port: 47581, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: 付款用户7x24疑难解答, server: shouer50.yjy.lol, port: 45629, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: 越南-解锁流媒体, server: yuenan.sux.lol, port: 26210, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-春川-4Gbps, server: cc.sux.lol, port: 44815, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-沙特-4Gbps, server: shate.tiktokcn.xyz, port: 32376, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-首尔-4Gbps, server: shouer4gbps.yjy.lol, port: 46576, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-首尔-500M, server: shouer500.yjy.lol, port: 41705, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-新加坡-1-4Gbps, server: poxi.yjy.lol, port: 27237, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-新加坡-2-4Gbps, server: xjp222.yjy.lol, port: 44863, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-新加坡-3-4Gbps, server: xxjjpp.yjy.lol, port: 44283, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
+    - { name: Oracle-新加坡-4-4Gbps, server: xjp444.yjy.lol, port: 48180, up: 1, down: 1, skip-cert-verify: false, type: hysteria2, password: 81a06694-13d1-4cb6-bead-0caacf9b4717, ports: 20000-50000 }
 proxy-groups:
-    - { name: 追云加速器, type: select, proxies: [自动选择, 故障转移, 请务必添加群聊@zhuiyunjiasu, 更快的节点速度请购买VIP套餐, 付款用户7x24疑难解答, Oracle-春川-4Gbps, Oracle-沙特-4Gbps, Oracle-首尔-4Gbps, Oracle-首尔-500M, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps, Oracle-墨西哥蒙特雷-4Gbps] }
-    - { name: 自动选择, type: url-test, proxies: [请务必添加群聊@zhuiyunjiasu, 更快的节点速度请购买VIP套餐, 付款用户7x24疑难解答, Oracle-春川-4Gbps, Oracle-沙特-4Gbps, Oracle-首尔-4Gbps, Oracle-首尔-500M, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps, Oracle-墨西哥蒙特雷-4Gbps], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: [请务必添加群聊@zhuiyunjiasu, 更快的节点速度请购买VIP套餐, 付款用户7x24疑难解答, Oracle-春川-4Gbps, Oracle-沙特-4Gbps, Oracle-首尔-4Gbps, Oracle-首尔-500M, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps, Oracle-墨西哥蒙特雷-4Gbps], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 追云加速器, type: select, proxies: [自动选择, 故障转移, 请务必添加群聊@zhuiyunjiasu, 更快的节点速度请购买VIP套餐, 付款用户7x24疑难解答, 越南-解锁流媒体, Oracle-春川-4Gbps, Oracle-沙特-4Gbps, Oracle-首尔-4Gbps, Oracle-首尔-500M, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps] }
+    - { name: 自动选择, type: url-test, proxies: [请务必添加群聊@zhuiyunjiasu, 更快的节点速度请购买VIP套餐, 付款用户7x24疑难解答, 越南-解锁流媒体, Oracle-春川-4Gbps, Oracle-沙特-4Gbps, Oracle-首尔-4Gbps, Oracle-首尔-500M, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: [请务必添加群聊@zhuiyunjiasu, 更快的节点速度请购买VIP套餐, 付款用户7x24疑难解答, 越南-解锁流媒体, Oracle-春川-4Gbps, Oracle-沙特-4Gbps, Oracle-首尔-4Gbps, Oracle-首尔-500M, Oracle-新加坡-1-4Gbps, Oracle-新加坡-2-4Gbps, Oracle-新加坡-3-4Gbps, Oracle-新加坡-4-4Gbps], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
-    - 'IP-CIDR,139.177.101.249/32,DIRECT,no-resolve'
     - 'IP-CIDR,140.245.35.56/32,DIRECT,no-resolve'
     - 'IP-CIDR,140.245.49.111/32,DIRECT,no-resolve'
     - 'IP-CIDR,140.245.60.117/32,DIRECT,no-resolve'
@@ -41,6 +40,7 @@ rules:
     - 'IP-CIDR,146.56.40.172/32,DIRECT,no-resolve'
     - 'IP-CIDR,84.8.103.167/32,DIRECT,no-resolve'
     - 'IP-CIDR,146.56.110.10/32,DIRECT,no-resolve'
+    - 'IP-CIDR,157.10.53.135/32,DIRECT,no-resolve'
     - 'IP-CIDR,140.238.7.1/32,DIRECT,no-resolve'
     - 'IP-CIDR,192.9.131.67/32,DIRECT,no-resolve'
     - 'IP-CIDR,155.248.214.80/32,DIRECT,no-resolve'
