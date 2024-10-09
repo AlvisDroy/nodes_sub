@@ -51,7 +51,7 @@ jobs:
 
     - name: Copy subscription file to GitHub Pages
       run: |
-        cp all_nodes.txt index.txt  # 将文件复制并重命名为index.txt，这样可以通过URL直接访问
+        cp all index.txt  # 将文件复制并重命名为index.txt，这样可以通过URL直接访问
         git add index.txt
         git commit -m "Update GitHub Pages with latest subscription nodes"
 
