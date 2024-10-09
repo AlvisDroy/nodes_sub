@@ -26,20 +26,20 @@ jobs:
 
     - name: Fetch and update subscriptions
       run: |
-        curl -o YH@5812.txt -H "User-Agent: clash-verge/v1.5.1" "https://x.yoy.pp.ua/api/v1/client/subscribe?token=7621729947c96c34b8759343eb056103"
-        curl -o QQ@boluo.txt -H "User-Agent: clash-verge/v1.5.1" "https://pqjc.site/api/v1/client/subscribe?token=8bcfa970c037de514b087a4750406631"
-        curl -o TG@Warp_Key.txt -H "User-Agent: clash-verge/v1.5.1" "https://sub.kaiche.tk/?token=auto"
-        curl -o TG@zhuiyunjiasu.txt -H "User-Agent: clash-verge/v1.5.1" "https://jc.sux.lol/api/v1/client/subscribe?token=374aac25cdcdbcc2c54961ba6b0e30ee"
-        curl -o TG@ripaojiedian.txt -H "User-Agent: clash-verge/v1.5.1" "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
-        curl -o TG@vps_jdkz.txt -H "User-Agent: clash-verge/v1.5.1" "https://sub.shengbenku.tk/sub.txt"
-        curl -o TG@ZDYZ2.txt -H "User-Agent: clash-verge/v1.5.1" "https://sub.tgzdyz2.xyz/sub"
-        curl -o YH@33102-2.txt -H "User-Agent: clash-verge/v1.5.1" "https://cfno1.212124.xyz/clash?host=word.212124.xyz&uuid=97e9e73d-2a29-4a1e-b451-093d81c51f7b&path=/xkaopf15da"
-        curl -o YH@33756.txt -H "User-Agent: Mozilla/5.0 (Linux; Android 13; Mi 10 Build/TKQ1.221114.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.9 Mobile Safari/537.36" "https://sub.443888.xyz/vless"
-        curl -o YH@12301.txt -H "User-Agent: clash-verge/v1.5.1" "https://dy.mfsn.cc/sub/v2ray/6a2U5rOV5bCR5aWz"
-        curl -o MY@USER.txt -H "User-Agent: clash-verge/v1.5.1" "https://bpb-6fi.pages.dev/sub/89b3cbba-e6ac-485a-9481-976a0415eab9#BPB-Normal"
-        curl -o TG@gp36y.txt -H "User-Agent: Mozilla/5.0 (Linux; Android 13; Mi 10 Build/TKQ1.221114.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.9 Mobile Safari/537.36" "https://s.36y.me/v3/subscr?id=2e40fe91ce8c4864b1287b9a260ecaa7"
-        cat YH@5812.txt QQ@boluo.txt TG@zhuiyunjiasu.txt YH@12301.txt TG@Warp_Key.txt TG@ripaojiedian.txt TG@vps_jdkz.txt TG@ZDYZ2.txt YH@33102-2.txt YH@33756.txt MY@USER.txt TG@gp36y.txt > all_nodes.txt
-        git add YH@5812.txt QQ@boluo.txt TG@zhuiyunjiasu.txt YH@12301.txt TG@Warp_Key.txt TG@ripaojiedian.txt TG@vps_jdkz.txt TG@ZDYZ2.txt YH@33102-2.txt YH@33756.txt MY@USER.txt TG@gp36y.txt all_nodes.txt
+        curl -o 15 -H "User-Agent: clash-verge/v1.5.1" "https://x.yoy.pp.ua/api/v1/client/subscribe?token=7621729947c96c34b8759343eb056103"
+        curl -o 12 -H "User-Agent: clash-verge/v1.5.1" "https://jc.sux.lol/api/v1/client/subscribe?token=374aac25cdcdbcc2c54961ba6b0e30ee"
+        curl -o 11 -H "User-Agent: Mozilla/5.0 (Linux; Android 13; Mi 10 Build/TKQ1.221114.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.9 Mobile Safari/537.36" "https://s.36y.me/v3/subscr?id=2e40fe91ce8c4864b1287b9a260ecaa7"
+       curl -o 10 -H "User-Agent: clash-verge/v1.5.1" "https://sub.kaiche.tk/?token=auto"
+        curl -o 9 -H "User-Agent: clash-verge/v1.5.1" "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
+        curl -o 7 -H "User-Agent: clash-verge/v1.5.1" "https://sub.shengbenku.tk/sub.txt"
+        curl -o 6 -H "User-Agent: clash-verge/v1.5.1" "https://sub.tgzdyz2.xyz/sub"
+        curl -o 5 -H "User-Agent: clash-verge/v1.5.1" "https://cfno1.212124.xyz/clash?host=word.212124.xyz&uuid=97e9e73d-2a29-4a1e-b451-093d81c51f7b&path=/xkaopf15da"
+        curl -o 4 -H "User-Agent: clash-verge/v1.5.1" "https://sub.xf.free.hr/auto"
+        curl -o 3 -H "User-Agent: Mozilla/5.0 (Linux; Android 13; Mi 10 Build/TKQ1.221114.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.9 Mobile Safari/537.36" "https://sub.443888.xyz/vless"
+        curl -o 2 -H "User-Agent: clash-verge/v1.5.1" "https://pqjc.site/api/v1/client/subscribe?token=8bcfa970c037de514b087a4750406631"
+        curl -o 1 -H "User-Agent: clash-verge/v1.5.1" "https://bpb-6fi.pages.dev/sub/89b3cbba-e6ac-485a-9481-976a0415eab9#BPB-Normal"
+        cat 15 12 11 10 9 7 6 5 4 3 2 1 > all
+        git add 15 12 11 10 9 7 6 5 4 3 2 1 all
         git commit -m "Update subscription nodes"
 
     - name: Force push changes to main branch
