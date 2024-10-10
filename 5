@@ -15,18 +15,18 @@ dns:
     fallback: ['https://dns.alidns.com/dns-query', 'https://dns.cloudflare.com/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - {name: 🇭🇰HK-Tencent cloud computing, type: vless, server: 101.32.41.166, port: 20000, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
+    - {name: 🇭🇰HK-Microsoft Azure, type: vless, server: 40.81.29.103, port: 8089, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
     - {name: 🇸🇬SG-45102-Vultr, type: vless, server: 8.210.112.46, port: 51116, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
     - {name: 🇹🇼TW-Chunghwa Telecom, type: vless, server: 59.124.90.154, port: 28207, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
-    - {name: 🇯🇵JP-Oracle Cloud, type: vless, server: 45.66.217.121, port: 56778, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
-    - {name: 🇺🇸US-25820, type: vless, server: 173.242.126.123, port: 60002, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
+    - {name: 🇯🇵JP-Nearoute, type: vless, server: 38.47.125.109, port: 33909, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
+    - {name: 🇺🇸US-IT7 Networks, type: vless, server: 65.49.212.33, port: 443, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: true}
 
     # Domain
     - {name: "TG Channel: @cf_no1" , type: vless, server: vless.cfno1.212124.xyz, port: 443, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: vless.cfno1.212124.xyz}}, udp: false}
     - {name: Cloudflare-Anycast, type: vless, server: word.212124.xyz, port: 443, uuid: 97e9e73d-2a29-4a1e-b451-093d81c51f7b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: '/xkaopf15da', headers: {Host: word.212124.xyz}}, udp: false}
 proxy-providers: {WARP: {type: http, path: ./warp.yaml, url: 'https://neko-warp.nloli.xyz/neko_warp.yaml', interval: 3600, health-check: {enable: true, url: 'https://www.gstatic.com/generate_204', interval: 300}}}
 proxy-groups:
-    - { name: PROXY, type: select, proxies: ["TG Channel: @cf_no1", Cloudflare-Anycast, 🇭🇰HK-Tencent cloud computing, 🇸🇬SG-45102-Vultr, 🇹🇼TW-Chunghwa Telecom, 🇯🇵JP-Oracle Cloud, 🇺🇸US-25820], use: [WARP] }
+    - { name: PROXY, type: select, proxies: ["TG Channel: @cf_no1", Cloudflare-Anycast, 🇭🇰HK-Microsoft Azure, 🇸🇬SG-45102-Vultr, 🇹🇼TW-Chunghwa Telecom, 🇯🇵JP-Nearoute, 🇺🇸US-IT7 Networks], use: [WARP] }
 rule-providers:
     reject: { type: http, behavior: domain, url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt', path: ./ruleset/reject.yaml, interval: 86400 }
     icloud: { type: http, behavior: domain, url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt', path: ./ruleset/icloud.yaml, interval: 86400 }
