@@ -39,8 +39,8 @@ jobs:
         curl -o 03 -H "User-Agent: Mozilla/5.0 (Linux; Android 13; Mi 10 Build/TKQ1.221114.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.9 Mobile Safari/537.36" "https://sub.443888.xyz/vless"
         curl -o 02 -H "User-Agent: clash-verge/v1.5.1" "https://pqjc.site/api/v1/client/subscribe?token=8bcfa970c037de514b087a4750406631"
         curl -o 01 -H "User-Agent: clash-verge/v1.5.1" "https://bpb-6fi.pages.dev/sub/89b3cbba-e6ac-485a-9481-976a0415eab9#BPB-Normal"
-        cat 15 14 12 11 10 09 07 06 05 04 03 02 01 > all
-        git add 15 14 12 11 10 09 07 06 05 04 03 02 01 all
+        cat 14 13 12 11 10 09 07 06 05 04 03 02 01 > all
+        git add 14 13 12 11 10 09 07 06 05 04 03 02 01 all
         git commit -m "Update subscription nodes"
 
     - name: Force push changes to main branch
