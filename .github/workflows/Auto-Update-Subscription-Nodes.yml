@@ -32,7 +32,7 @@ jobs:
         curl -o 11 -H "User-Agent: Mozilla/5.0 (Linux; Android 13; Mi 10 Build/TKQ1.221114.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.9 Mobile Safari/537.36" "https://vless.durl.nyc.mn/zrf"
         curl -o 10 -H "User-Agent: clash-verge/v1.5.1" "https://moist.996.buzz/vless"
         curl -o 09 -H "User-Agent: clash-verge/v1.5.1" "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
-        curl -o 07 -H "User-Agent: clash-verge/v1.5.1" "https://sub.shengbenku.tk/sub.txt"
+        curl -o 07 -H "User-Agent: clash-verge/v1.5.1" "https://alvless.comorg.us.kg/TCorg"
         curl -o 06 -H "User-Agent: clash-verge/v1.5.1" "https://sub.tgzdyz2.xyz/sub"
         curl -o 05 -H "User-Agent: clash-verge/v1.5.1" "https://x.yoy.pp.ua/api/v1/client/subscribe?token=7621729947c96c34b8759343eb056103"
         curl -o 04 -H "User-Agent: clash-verge/v1.5.1" "https://0p0.me/zwiyb5de.html"
